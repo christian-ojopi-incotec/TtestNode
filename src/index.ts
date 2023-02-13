@@ -65,6 +65,4 @@ import puppeteer from 'puppeteer';
     await checkMessages();
 
     await browser.close();
-
-    console.log(key);
 })();
