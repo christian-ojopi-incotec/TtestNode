@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "baseUrl": "src",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "declaration": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "outDir": "lib",
+        "inlineSources": false,
+        "strictNullChecks": false,
+        "noUnusedLocals": false,
+        "typeRoots": ["./node_modules/@types", "./node_modules/@microsoft"],
+        "types": [],
+        "lib": ["es5", "esnext", "dom", "es2015.collection", "es2015.promise", "es2020.string"]
+    },
+    "include": ["src/**/*.ts", "src/*.ts"]
+}
